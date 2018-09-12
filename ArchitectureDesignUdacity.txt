@@ -1,0 +1,76 @@
+30:
+
+
+some stuff TBAdded
+
+What is the key design question with which any implementation of TestBrowser must deal?
+
+
+31:
+
+Software Design: The Process of buidin a program while satisfying a problem's functional requirements and not violating its non-functional requirements
+
+Two Parts:
+Architectural Design
+Detail Design
+
+Architectural design:
+The process of Identifying and assigning the responsibility for aspects of beahavior to various modules or components of Software
+
+Detail Design:
+The Process of specifying the behavior of each of the system components that you have identified during Architectural design
+particularly w.r.t their Datastructures and Algorithms
+
+The Primary activity during detailed design is to select logical representations of data objects identified during the requirements definition and specification phase. The selection process may involve algorithmic analysis of alternative structures in order to determine the most efficient design or may simply involve the use of a set of modules that provide the operations upon some representation of an object
+
+Pseudo Code; Program Design Language(PDL):
+Keywords, free syntax of natural language, data declaration, sub-program definition and calling
+
+Structured Programming:
+Sequence, Condition, repetition, chunking
+
+Flow charts, Call Graphs:
+Directed Graphs: node is computational unit, arc is flow of control
+
+Decision Tables:
+Rules, Conditions, actions
+
+33: Approaches to Software Design:
+More structured: OO Design
+Some for Real Time systems
+Some as only part of an application, ex. User Interface
+
+Design method, Design representation, Design validation
+
+Method: A method is a systematic sequence of steps that a design team uses to solve a problem
+Design method acts as a discipline for designers and implementers to think in certian ways
+Ex: OO Design, Structured Design, Role based design
+
+34: Issues with Design
+
+Are you going to do things top down? or Bottom up or Inside out?
+Are you going to begin by thinking of procedures nad functions or in terms of nouns and objects like OO design.
+
+Conceptual Integrity vs Cooperative development
+
+Long-term maintainability vs Short term schedule
+
+What tools are you going to use to support the above decisions
+
+35: Design Validation:
+Review, Walkthrough, Inspection by team or tools based checking
+
+Issues withh Design Validation:
+Independence of validators
+Dependence on design method
+On-going vs after the fact
+
+
+36: Other Design Issues:
+
+Architectural vs Detail Design
+Functional behavior vs non-functional constraints
+Specification/what vs Design/how
+Application Specificity
+
+
