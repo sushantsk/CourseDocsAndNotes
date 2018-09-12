@@ -73,4 +73,30 @@ Functional behavior vs non-functional constraints
 Specification/what vs Design/how
 Application Specificity
 
+37: Design Documentation:
+For large designs, the scale and complexity beg to have a design documentation
+If maintenance is going to be done by different people, it will be of great help
+Different kinds of methods, different kinds of applications require differnt kinds of documentation
+Formal Multi-volume, to scribble notes to presentations
+
+38: Traditional Design Documentation
+Subcomponents:
+-Processes/activities
+-Data/data flows
+Control FLow:
+-Control regime
+Performance
+Resources
+
+For more detailed documentation, use IEEE 1016
+
+39: Leonardo Objects
+Stakeholders: views/interests; work procedures
+Issue bases: Issues, alternatives, analyses, resolutions(commitments, decisions), rationale, impacts, conflicts
+Temporal relations: histories, schedules, transformations, versions(revisions, releases, variants)
+Constraints: Internal, external,(requirements, specifications)
+Aggregates: Configurations, packages, components
+
+40: Design Rationale:
+Design decisions are explicit choices of how to trade off two non-functional aspects of a design, such as speed versus size
 
