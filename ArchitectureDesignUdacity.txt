@@ -100,3 +100,53 @@ Aggregates: Configurations, packages, components
 40: Design Rationale:
 Design decisions are explicit choices of how to trade off two non-functional aspects of a design, such as speed versus size
 
+51: Class Models
+Class Model Diagram:
+Most Popular
+Also called static model
+Structural relationships
+Has Classes and relationships
+
+52: UML Classes:
+Have 3 compartments
+Top compartmnet-> Name of Class
+Middle compartment-> Attributes
+Third/last compartment has Methods or Operations that class provides
+
+53: UML Relationships
+Dependency: X uses Y, Dashed line, directed line
+Associations: X affects Y Solid undirected line(X contains an instance of Y for example))
+Generalisation: X is a kind of Y; Solid line with large, open arroeehead(X is a Kind of Y))
+
+54: Example Class Diagram
+
+55: Object Diagram:
+Same or similar to Class Model diagram
+The Label compartment at the top of the boxes has an underlined text line
+Label(Text line) => Instance <colon> Class name
+Used to convey the specific use of the classes involved in a class model diagram
+Attribute fields have attribute values
+
+56: Composite Structure Diagram
+A structural diagram which shows the internal structure of a class
+Left side of interior class(horizontal lines coming out) are interfaces
+Provides interface has circle at the end of line
+Requires interface has semi circle at the end of line
+
+57: Component diagram
+=> Static Implementation view:
+A physical, replacable part of a system that provides implementation and conforms to and provides the realization of a set of interfaces - UML Reference Manual
+Used to Model code entities
+Used to convey architecture
+
+58: Example Component Diagram
+Rectangle with two sub rectangles on the sides, indicate components
+Dashed lines indicate where components plug into other components
+
+59: Deployment Diagram
+In a complex system, systems may run on different processing units and we'd like to convey the configuration of the run time processing units and their component instances in a way that sees how they can interact.
+A Node in teh diagram will correspond to a computational device and Arcs indicate some kind of communication
+
+Deployment Diagram => "Configuration of run-time processing nodes and the component instances and objects that live on them" - UML Reference Manual
+
+60: Example Component Diagram
