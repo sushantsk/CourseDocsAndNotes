@@ -100,6 +100,76 @@ Aggregates: Configurations, packages, components
 40: Design Rationale:
 Design decisions are explicit choices of how to trade off two non-functional aspects of a design, such as speed versus size
 
+41: Coupling and Cohesion
+Coupling: The extent to which two components depend on each other for successful execution
+- Low coupling is good. They are also very easy to maintain, and debug.
+Cohesion: The xtent to which a component has a single pupose or function
+- High cohesion is good. They are also much more easy to reuse.
+
+42: Information Hiding:
+Abstraction so teh internal functionality is not visible to the outside world
+
+43: Abstractionand refinement
+Abstraction Mechanisms:
+- Declarative: what, not how
+- Aggregation: Container, not contents
+- Generalization: class, not individuals
+- Parameterzation: binding details later
+- Non-determinism: Leaving choices unspecified
+
+44: Aesthetics
+Three things are needed for beauty:
+wholeness, harmony and radiance -Aquinas
+
+For Software: Completeness, consistency and conceptual integrity
+
+"I made this letter very long, because I didn't have the leisure to make it shorter" -Pascal
+
+45: Design Philosophy
+Descartes: Analysis; use of models
+Marx: Understanding teh social context of design solutions; user-centered design
+Heidegger: tools fo accomplishing goals; CASE, IDE
+Wittgenstein - Language games desktop metaphor
+
+46: Observations:
+Design is the most creative part of the software developmetn process
+Overall system quality is highly dependen on the designs produced
+A Key determinan of design quality is the extent of experience of this on similar projects in particular, of members of teh design team
+
+47: Diagrams
+Diagrams: Doing design, you need to be able to represent those designs and a very popular mehod of doing that is by using Diagrams
+Some of the oldest techniques are Flowcharts to wite control logic of an algorithm
+Other sophisticated methods are Ex: SADT, Jackson Design, Structure Design and so on.
+
+In 1980s, OOPS emeged and with them came their own particular approach to diagramming
+
+
+48: OMT:
+Object Management Technique:
+Class Model Diagram => State Chart Diagram => Data Flow Diagram
+
+49: UML
+The history of trying to unify the different aspects of teh system in different diagrams let to the Unified Modeling Language or the UML
+Standardised by Object Managemetn Group(OMG)
+Supported by CASE tools
+Conceived by three architects Rumbaugh, Booch and Jacobson
+Diagrams + OCL
+Used for analysis or design models
+Analysis diagram => concerned with the problem we are solving
+Design diagram => concerned with the solution to the problem
+
+50: Diagram Types:
+UML 2 has 14 different kinds of diagrams
+Understand the trickiest part of the project and use the diagrm that helps you best understand the tricky part
+
+Two main categories of Diagrams:
+Structural
+Behavioral
+
+Structural: Gives you teh pieces of teh system that are always there and the relationship among them
+
+Behavioral: Concerned with the executions of the system. The particular diagram may only onvey only one execution. May have to have multiple sequence duiagrams in order to get a good feel fo all of teh behaviors of the system.
+
 51: Class Models
 Class Model Diagram:
 Most Popular
