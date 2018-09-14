@@ -220,3 +220,69 @@ A Node in teh diagram will correspond to a computational device and Arcs indicat
 Deployment Diagram => "Configuration of run-time processing nodes and the component instances and objects that live on them" - UML Reference Manual
 
 60: Example Component Diagram
+
+61: Packages
+General Purpose Organizing mechanisms
+Provides namespace scoping
+System is the top level package
+Dependency arrows between packages indicate the existence of dependencies between constituents
+
+62: Example Class Diagram with Packages UML 1.5
+Package has a small Tab in its upper left hand corner with a label on it and there are also inter package dependencies with dashed lines ending in an arrowhead
+
+63: Example Package DIagram UML 2.0
+
+64: Peofile Diagram
+Higher LEvel: Properties of diagrams, not models
+Profiles allow you to extend the basic UML notation
+Final Structural Diagram
+
+65: Example Profile Diagram
+Used in extending the UML language to deal with describing certain kinds of systems
+
+66: Behavior Diagrams
+
+2nd MAIN TYPE OF DIAGRAMS
+
+Focused on specific uses
+You may need to have multiple sequence diagrams, multiple collaboration diagrams to convey or give an idea of overall system.
+
+67: Usecase Diagrams
+UML doesnot include Dat Flow diagrams
+Instead it includes Jacobson's usecase diagrams
+Usecase is a sequence of user-visible actions along with system responses
+Its a story of how a system deals with a particular user interaction
+Useful for eliciting system requirements adn organizing development acivities
+You lay-out different stories of how the system is going to be used and the explore ramifications. What happens if something goes wrong, what are some intermediate steps that maybe you didn't make explicit.
+
+68: Usecase Diagrams - 2
+Stick figures denote external actors(typiclly system users, may also stand for other systems or external devices)
+Ovals are usecases
+Usecase diagram is not a system story. Its a description of a set of system stories
+Lines without annotation indicate participation. The actor at one end is involved in the usecase oval at the other end. There're two annotations available in usecase diagrams. One is the extends annotation and one is teh uses annotation.
+<<extends>> and <<uses>> stereotype support factoring
+Extends mean that you have one story and you'd like to extend it by some other contingencies, essentially getting two for the price of one. The uses stereotype is like a sub-routine or, or function call. <<uses>> is more like a function call, that can be used by onen or more usecases
+
+69: Example Usecase Diagrams
+
+70: Individual Usecases
+Use Case Diagrams convey a system of system uses and actors that are involved with them
+
+Usecases themselves may be conveyed with unstructured text or in table
+
+Example: Foster wants to buy a book. He goes to teh amazon website and browses to find his book. He adds it to his shopping cart. He then goes to teh check-out page where he provides his billing information and confirms his purchase.
+
+71: Tabular Version of Example:
+
+Ex:
+Actor => Action => Obejct
+Foster => Browses => Amazon website
+Foster => selects => book
+Foster => adds => book, shopping cart
+Foster => checks-out
+Amazon => requests => billing information
+Foster => provides => name, address, credit
+Amazon => verifies => credit information
+Foster => confirms => purchase
+
+Both the above are examples of usecases, and they would represent teh content of one of teh ovals used in the usecase diagram
